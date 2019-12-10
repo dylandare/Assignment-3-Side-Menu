@@ -1,0 +1,20 @@
+<ons-page id="home.html">
+  <ons-toolbar>
+    <div class="center" style="text-align: center;">Side panel menu app</div>
+    <div class="right">
+      <ons-toolbar-button onclick="fn.openMenu()">
+        <ons-icon icon="ion-navicon, material:md-menu"></ons-icon
+      ></ons-toolbar-button>
+    </div>
+  </ons-toolbar>
+  <ons-card onclick="fn.load('add.html', 'Add')">
+    <img src="img/add.png" width="100%" />
+    <h2>Add</h2>
+    <p>Simple addition of 2 numbers</p>
+  </ons-card>
+  <ons-card onclick="fn.load('multiply.html', 'Multiply')">
+    <img src="img/multiply.png" width="100%" />
+    <h2>Multiply</h2>
+    <p>Simple multiplication of two numbers</p>
+  </ons-card>
+</ons-page>
