@@ -1,0 +1,21 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "assignment3.side.menu"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "assignment3.side.menu"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "assignment3.side.menu"
+        }
+    },
+    "dependent_plugins": {}
+}
